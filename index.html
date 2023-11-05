@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FakeEcommShop</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+<!--Navbar-->
+
+<section class="Navbar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">AWESOME SHOP SHOP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="products.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PrOdUcTs
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="products.html">Something</a></li>
+                            <li><a class="dropdown-item" href="products.html">SOMETHING</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="products.html">SomethingSOMETHING</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class= "nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Contact
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class= "nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            locations
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class ="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Business Stuff
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <a href="cart.html"><div class="cart"><i class="Kart"></i><div id="cartAmount" class="cartAmount">0</div></div></a>
+                </form>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<!--OFFCANVAS NAV-->
+
+<section class="canv">
+    <button class="btn btn-primary custom-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Filter</button>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Products</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p class="OffCanvText">Lady Sylvanas Windrunner, formerly styled "the Dark Lady" and "the Banshee Queen",
+                is the former Warchief of the Horde and former supreme ruler of the Forsaken,
+                one of the most powerful factions of undead on Azeroth. In life,
+                Sylvanas was the ranger-general of Silvermoon,
+                whose leadership acumen and martial prowess were without equal.</p>
+            <div class="btn-group-vertical">
+                <h4 class="AwesomeDressHeading">awesome Bags with different styles</h4>
+                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Bags
+                </button>
+                <div class="dropdown-menu">
+                    <button class="dropdown-item" type="button"><a href="bags.html">Bags</a></button>
+                    <button class="dropdown-item" type="button"><a href="bags.html">More bags</a></button>
+                    <button class="dropdown-item" type="button"><a href="bags.html">Red bags</a></button>
+                    <button class="dropdown-item" type="button"><a href="bags.html">Blue Bags</a></button>
+                </div>
+                <h4 class="AwesomeDressHeading">awesome dresses with different styles</h4>
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dress
+                </button>
+
+                <div class="dropdown-menu">
+                    <button class="dropdown-item" type="button"><a href="dress.html">Dress</a></button>
+                    <button class="dropdown-item" type="button"><a href="dress.html">Blue Dresses</a></button>
+                    <button class="dropdown-item" type="button"><a href="dress.html">Green Dresses</a></button>
+                    <button class="dropdown-item" type="button"><a href="dress.html">Optional Dresses</a></button>
+                </div>
+                <h4 class="AwesomeDressHeading">awesome Pants with different styles</h4>
+                <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Pants
+                </button>
+                <div class="dropdown-menu">
+                    <button class="dropdown-item" type="button"><a href="pants.html">Pants</a></button>
+                    <button class="dropdown-item" type="button"><a href="pants.html">Long Pants</a></button>
+                    <button class="dropdown-item" type="button"><a href="pants.html">Pants that fit</a></button>
+                    <button class="dropdown-item" type="button"><a href="pants.html">Pants made out of pizza</a></button>
+                </div>
+                <h4 class="AwesomeDressHeading">awesome Shirts with different styles</h4>
+                <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Shirts
+                </button>
+                <div class="dropdown-menu">
+                    <button class="dropdown-item" type="button"><a href="shirts.html">Shirts</a></button>
+                    <button class="dropdown-item" type="button"><a href="shirts.html">Orange Shirts </a></button>
+                    <button class="dropdown-item" type="button"><a href="shirts.html">Shirts for old people</a></button>
+                    <button class="dropdown-item" type="button"><a href="shirts.html">Shirts that are expensive</a></button>
+                </div>
+                <p>this needs to be extended and styled better</p> <!--extend pad and style-->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Banner-->
+
+<section class="Banner">
+    <div class="slideshow-container">
+        <div class="Slides">
+            <img src="Assets/img/Banner/Banner1.jpg" alt="Banner 1">
+            <div class="text">fashion model 1</div>
+        </div>
+        <div class="Slides">
+            <img src="Assets/img/Banner/Banner6.jpg" alt="Walungurru Ranger">
+            <div class="text">Walungurru Ranger</div>
+        </div>
+        <div class="Slides">
+            <img src="Assets/img/Banner/Banner3.png" alt="Banner 2">
+            <div class="text">fashion model 2</div>
+        </div>
+        <div class="Slides">
+            <img src="Assets/img/Banner/Banner4.jpg" alt="Banner 2">
+            <div class="text">fashion model 3</div>
+        </div>
+        <div class="Slides">
+            <img src="Assets/img/Banner/Banner5.jpg" alt="fashion model 4">
+            <div class="text">fashion model 4</div>
+        </div>
+    </div>
+</section>
+<header><h1>9000% off Dress</h1></header>
+<!--generate shop-->
+<div class="shop" id="shop"></div>
+<!--stop generating shop-->
+
+<!--Footer-->
+<footer class="FOOOOOOTER">  <!-- Need to add styles -->
+    &copy; THE SHOPPING SHOP SHOP
+</footer>
+</body>
+<!--1000 Scripts -->
+<script src="JavaScript/data.js"></script>
+<script src="JavaScript/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- hopefulLy no moreScripts -->
+</html>
