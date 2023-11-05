@@ -70,7 +70,7 @@
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
-                    <a href="cart.html"><div class="cart"><i class="Kart"></i><div id="cartAmount" class="cartAmount">0</div></div></a>
+                    <a href="cart.html"><div class="cart"><img src="Assets/icons/Kart.png" alt="Cart Icon"><div id="cartAmount" class="cartAmount">0</div></div></a>
                 </form>
             </div>
         </div>
@@ -78,9 +78,10 @@
 </section>
 
 <!--OFFCANVAS NAV-->
-
-<section class="canv">
+<section class="FilterButton"> </section>
     <button class="btn btn-primary custom-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Filter</button>
+    <section class="canv">
+<!--    <button class="btn btn-primary custom-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Filter</button>-->
     <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
         <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Products</h5>
@@ -141,28 +142,34 @@
 </section>
 
 <!--Banner-->
-
 <section class="Banner">
-    <div class="slideshow-container">
-        <div class="Slides">
-            <img src="Assets/img/Banner/Banner1.jpg" alt="Banner 1">
-            <div class="text">fashion model 1</div>
-        </div>
-        <div class="Slides">
-            <img src="Assets/img/Banner/Banner6.jpg" alt="Walungurru Ranger">
-            <div class="text">Walungurru Ranger</div>
-        </div>
-        <div class="Slides">
-            <img src="Assets/img/Banner/Banner3.png" alt="Banner 2">
-            <div class="text">fashion model 2</div>
-        </div>
-        <div class="Slides">
-            <img src="Assets/img/Banner/Banner4.jpg" alt="Banner 2">
-            <div class="text">fashion model 3</div>
-        </div>
-        <div class="Slides">
-            <img src="Assets/img/Banner/Banner5.jpg" alt="fashion model 4">
-            <div class="text">fashion model 4</div>
+    <div class="container-fluid"> <!-- Use container-fluid for responsiveness -->
+        <div class="slideshow-container">
+            <div class="Slides">
+                <img src="Assets/img/Banner/Banner1.jpg" alt="Banner 1">
+                <div class="text-container"></div>
+                <div class="text">fashion model 1</div>
+            </div>
+            <div class="Slides">
+                <img src="Assets/img/Banner/Banner6.jpg" alt="Walungurru Ranger">
+                <div class="text-container"></div>
+                <div class="text">Walungurru Ranger</div>
+            </div>
+            <div class="Slides">
+                <img src="Assets/img/Banner/Banner3.png" alt="Banner 2">
+                <div class="text-container"></div>
+                <div class="text">fashion model 2</div>
+            </div>
+            <div class="Slides">
+                <img src="Assets/img/Banner/Banner4.jpg" alt="Banner 2">
+                <div class="text-container"></div>
+                <div class="text">fashion model 3</div>
+            </div>
+            <div class="Slides">
+                <img src="Assets/img/Banner/Banner5.jpg" alt="fashion model 4">
+                <div class="text-container"></div>
+                <div class="text">fashion model 4</div>
+            </div>
         </div>
     </div>
 </section>
